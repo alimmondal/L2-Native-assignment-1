@@ -38,22 +38,24 @@ export default function App() {
       </View>
 
       <View style={{ flex: 1,alignSelf:"flex-start", gap:10, marginTop:50, margin:20 }}>
-        <View style={styles.icon}>
-          <Icon name="twitter" size={30} color="#900" />
-          <Text>Example Icon:</Text>
-        </View>
+        
         <View style={styles.icon}>
           <Icon name="linkedin" size={30} color="#900" />
-          <Text>Example Icon:</Text>   
+          <Text>https://linkedin.com/in/alim-mondal</Text>   
         </View>
         <View style={styles.icon}>
           <Icon name="link" size={30} color="#900" />
-          <Text>Example Icon:</Text>   
+          <Text>https://github.com/alimmondal</Text>   
+        </View>
+        <View style={styles.icon}>
+          <Icon name="twitter" size={30} color="#900" />
+          <Text style={{color:"lightgrey"}}>Not Available</Text>
         </View>
         <View style={styles.icon}>
           <Icon name="building" size={30} color="#900" />
-          <Text>Example Icon:</Text>          
+          <Text>@github</Text>          
         </View>
+        
     </View>
       
     </SafeAreaView>
